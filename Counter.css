@@ -1,0 +1,52 @@
+body{
+    background-color: turquoise;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.counter{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gold;
+    text-align: center;
+    border: 5px solid black;
+    margin: auto;
+    width: 30%;
+    color: black;
+
+}
+
+.counter h1,h2,{
+    text-align: center;
+    color: blue;
+}
+
+#increment-btn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#increment-btn p:hover{
+    color: black
+}
+
+#save-btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#save-btn p:hover{
+    color: black
+}
+
+#entries{
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+}
